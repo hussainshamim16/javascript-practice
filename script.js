@@ -33,3 +33,14 @@ console.log(sum);
 
 var naMe = 'camelCase';
 
+
+// 5 chapter Familiar operators
+ 
+var num1 = 2+2; 
+var num2 = 2-2; 
+var num3 = 2/2; 
+var num4 = 2*2; 
+ console.log(num1,num2,num3,num4);
+
+
+
