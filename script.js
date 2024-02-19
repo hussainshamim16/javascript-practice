@@ -9,3 +9,5 @@ alert('WEll come My WEb page');
 
 var name = "hussain";
 var nationality = 'pakistan';
+
+console.log(name , nationality)
