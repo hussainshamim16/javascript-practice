@@ -7,4 +7,3 @@ alert('WEll come My WEb page');
 
 // 2 Variables for Strings
 
-alert('WEll come My WEb page');
