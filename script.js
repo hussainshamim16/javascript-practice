@@ -40,7 +40,9 @@ var num1 = 2+2;
 var num2 = 2-2; 
 var num3 = 2/2; 
 var num4 = 2*2; 
- console.log(num1,num2,num3,num4);
+var num5 = 2%2; 
+
+ console.log(num1,num2,num3,num4,num5);
 
 
 
