@@ -44,5 +44,22 @@ var num5 = 2%2;
 
  console.log(num1,num2,num3,num4,num5);
 
+ // 6 chapter Math expressions Unfamiliar operators
+ 
+// (+)
+ var ham = 2;
+
+ var newHam = ham++ ;
+
+ console.log(ham);
+
+// (-)
+ var am = 2;
+
+ var newam = am-- ;
+
+ console.log(am);
+
+
 
 
