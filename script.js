@@ -1,29 +1,31 @@
-<<<<<<< HEAD
+
 console.log('code Run');
 console.log(window);
 
-// 1 Adding aLert in js first chapter
+
+// 1 chapter Adding alert in js
 
 alert('WEll come My WEb page');
 
-// 2 Variables for Strings
+
+// 2 chapter Variables for Strings
 
 var name = "hussain";
 var nationality = 'pakistan';
 
 console.log(name , nationality)
-// =======
-console.log('code Run');
-console.log(window);
 
-// 1 Adding aLert in js first chapter
+alert(name);
 
-alert('WEll come My WEb page');
+// 3  chapter Variables for Numbers
 
-// 2 Variables for Strings
+var kg = 2;
+var newKg = kg + 6;
+console.log(newKg);
 
-// >>>>>>> 2e4b81394b12b637b9f88527f2058ccf76f080b0
-
-var name = ' hussain'
+// sexond prec
+var whight = '20'; // not a number start +
+var sum = 22 + whight;
+console.log(sum);
 
 
