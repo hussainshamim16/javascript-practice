@@ -7,3 +7,5 @@ alert('WEll come My WEb page');
 
 // 2 Variables for Strings
 
+var name = "hussain";
+var nationality = 'pakistan';
