@@ -29,3 +29,7 @@ var sum = 22 + whight;
 console.log(sum);
 
 
+// 4 chapter Variable Names Legal and Illegal
+
+var naMe = 'camelCase';
+
