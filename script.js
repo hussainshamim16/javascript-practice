@@ -24,6 +24,7 @@ var newKg = kg + 6;
 console.log(newKg);
 
 // sexond prec
+
 var whight = '20'; // not a number start +
 var sum = 22 + whight;
 console.log(sum);
@@ -77,6 +78,18 @@ var banger = '!';
 var thanks = 'thanks ';
 
 alert(thanks  + user  + banger);
+
+// 9 Prompts
+
+var userName = prompt('your name');
+var userClass = prompt('your class');
+
+console.log(userName + ' is in class ' +userClass);
+
+
+
+
+
 
 
 
