@@ -60,6 +60,16 @@ var num5 = 2%2;
 
  console.log(am);
 
+ // 7 chapter Eliminating ambiguity
+
+ var jama =  8 + 4; 
+ var sama = 2 + 9 * 7; 
+ var gama = ( 2 + 2 +  9); 
+ var nama = (2 + 2) * (9 + 8); 
+ var mama = (( 2 + 2 + 9 ) + 8 * 4); 
+
+ console.log(jama, sama, gama, nama ,mama)
+
 
 
 
