@@ -70,6 +70,14 @@ var num5 = 2%2;
 
  console.log(jama, sama, gama, nama ,mama)
 
+ // 8 Concatenating text strings
+
+var user = 'hussain ';
+var banger = '!';
+var thanks = 'thanks ';
+
+alert(thanks  + user  + banger);
+
 
 
 
