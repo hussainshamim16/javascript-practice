@@ -87,7 +87,18 @@ var userClass = prompt('your class');
 console.log(userName + ' is in class ' +userClass);
 
 
+// 10 if statements
 
+var Userio = prompt('what is full form of js') ;
+if(Userio === 'javascript'){
+    alert('you are correct');
+}
+
+var bankCheak = prompt('your ammount is')
+if(bankCheak){
+    console.log('your balance is 700$');
+    console.log('payde ammount is ' + bankCheak);    
+}
 
 
 
