@@ -100,7 +100,7 @@ if(bankCheak){
     console.log('payde ammount is ' + bankCheak);    
 }
 
-//// complete 10 chapter with test 
+//// complete 10 chapter with test ; 
 
 
 
