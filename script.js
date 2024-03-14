@@ -5,17 +5,17 @@ console.log(window);
 
 // 1 chapter Adding alert in js
 
-alert('WEll come My WEb page');
+// alert('WEll come My WEb page');
 
 
 // 2 chapter Variables for Strings
 
-var name = "hussain";
-var nationality = 'pakistan';
+// var name = "hussain";
+// var nationality = 'pakistan';
 
-console.log(name , nationality)
+// console.log(name , nationality)
 
-alert(name);
+// alert(name);
 
 // 3  chapter Variables for Numbers
 
@@ -73,36 +73,36 @@ var num5 = 2%2;
 
  // 8 Concatenating text strings
 
-var user = 'hussain ';
-var banger = '!';
-var thanks = 'thanks ';
+// var user = 'hussain ';
+// var banger = '!';
+// var thanks = 'thanks ';
 
-alert(thanks  + user  + banger);
+// alert(thanks  + user  + banger);
 
 // 9 Prompts
 
-var userName = prompt('your name');
-var userClass = prompt('your class');
+// var userName = prompt('your name');
+// var userClass = prompt('your class');
 
-console.log(userName + ' is in class ' +userClass);
+// console.log(userName + ' is in class ' +userClass);
 
 
 // 10 if statements
 
-var Userio = prompt('what is full form of js') ;
-if(Userio === 'javascript'){
-    alert('you are correct');
-}
+// var Userio = prompt('what is full form of js') ;
+// if(Userio === 'javascript'){
+//     alert('you are correct');
+// }
 
-var bankCheak = prompt('your ammount is')
-if(bankCheak){
-    console.log('your balance is 700$');
-    console.log('payde ammount is ' + bankCheak);    
-}
+// var bankCheak = prompt('your ammount is')
+// if(bankCheak){
+//     console.log('your balance is 700$');
+//     console.log('payde ammount is ' + bankCheak);    
+// }
 
 //// complete 10 chapter with test ; 
 
-
+11
 
 
 
