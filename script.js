@@ -119,6 +119,37 @@ var num5 = 2%2;
     console.log('its equal');
  }
 
+//  12 if/else and else/if statements
+
+var smit = prompt('saylani mass it traning The short form of this program');
+if(smit === 'smit'){
+    console.log('yes you are right' );
+}
+if(smit !== 'smit'){
+    console.log('no you are rong' );
+}
+
+// java script was invented by brendan eich in 1995 it was develop for natscap 2
+
+var train = prompt('js is ?');
+if(train === 'programming language'){
+    console.log('yes you are right' );
+}
+else{
+    console.log('no you are rong' );
+}
+
+var math = prompt('2 x 14 is ?');
+
+if( math == 28){
+    console.log('yes you are correct');
+}else if (math == 22){
+    console.log('nice');
+}else{
+    console.log('fail');
+}
+
+
 
 
 
