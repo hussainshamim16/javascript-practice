@@ -102,7 +102,25 @@ var num5 = 2%2;
 
 //// complete 10 chapter with test ; 
 
-11
+// start 11th to 20 chapter 
+
+//  11 comparesion operator
+
+ //('===') //equal
+ //('!==') //not equal
+ // > is greater than
+ // < is less than
+ // >= is greater than or equal to
+ // <= is less than or equal to
+
+ var firstnumber = 5;
+ var secondNmuber = 5;
+ if(firstnumber === secondNmuber){
+    console.log('its equal');
+ }
+
+
+
 
 
 
