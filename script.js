@@ -149,10 +149,17 @@ var num5 = 2%2;
 //     console.log('fail');
 // }
 
+// 13 testing sets of conditions
 
+// var army = prompt('Do you want to join the army?')
+// var armyAge = prompt('your age');
+// var armyeducation = prompt('your education');
+// var armyHeight = prompt('your height');
 
-
-
-
-
-
+// if(army = 'yes' && armyAge > 17 && armyHeight === '6 feet' && armyeducation >= 'master'){
+//     console.log('You can apply');
+// }else if (army = 'yes' && armyAge < 18 && armyHeight == '6 feet' && armyeducation == 'master'){
+//     console.log('no you can not apply');
+// }else{
+//     console.log('You are not eligible to apply.')
+// }
