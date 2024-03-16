@@ -185,3 +185,9 @@ var num5 = 2%2;
 //    console.log('Kmc zoo');
 //  }
 
+///loops
+document.write("<h1>2 x 1 = 2</h1>");
+for(i=1; i<=10 ; i++){
+   document.write("2 x " + i + ' = ' + i*2 +'<br />'+'<br />');
+}
+
