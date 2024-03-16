@@ -166,21 +166,22 @@ var num5 = 2%2;
 
 // 14 if statements nested
 
- var zbra = 5 ;
- var ont = 5 ;
- var shair = 3;
- var hati = 9;
- var lomri = 6;
- var hiran = 19;
+//  var zbra = 5 ;
+//  var ont = 5 ;
+//  var shair = 3;
+//  var hati = 9;
+//  var lomri = 6;
+//  var hiran = 19;
 
 
- if(zbra === ont){
-   console.log('korangi zoo');
-   if(hiran === ont ){
-      console.log('landhi zoo');      
-   }else{
-      console.log('mega zoo')
-   }
- }else{
-   console.log('Kmc zoo');
- }
+//  if(zbra === ont){
+//    console.log('korangi zoo');
+//    if(hiran === ont ){
+//       console.log('landhi zoo');      
+//    }else{
+//       console.log('mega zoo')
+//    }
+//  }else{
+//    console.log('Kmc zoo');
+//  }
+
