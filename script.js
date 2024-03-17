@@ -224,12 +224,12 @@ var num5 = 2%2;
 
 // 18 for loops
 
-var platesomilk = 2;  
-var animal = 6;
+// var platesomilk = 2;  
+// var animal = 6;
 
 
-var dog = 'meet';
-var cat = 'meet';
+// var dog = 'meet';
+// var cat = 'meet';
 
 // if(dog === cat){
 //    console.log('drik milk')
@@ -247,11 +247,11 @@ var cat = 'meet';
 // console.log('ready to drink');
 // }
 
-for(var platesomilk = 0 ; platesomilk < 6 ; platesomilk++){
-   console.log('platesomilk,'+ platesomilk);
+// for(var platesomilk = 0 ; platesomilk < 6 ; platesomilk++){
+//    console.log('platesomilk,'+ platesomilk);
    
-}
+// }
 
-if(platesomilk === 6){
-   console.log('khaly bhai khaly')
-}
+// if(platesomilk === 6){
+//    console.log('khaly bhai khaly')
+// }
