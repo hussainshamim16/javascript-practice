@@ -209,3 +209,14 @@ var num5 = 2%2;
 // zbara.pop();
 // zbara.push('yellow');
 // console.log(zbara);
+
+// 17 Arrays: Removing, inserting, and extracting elements
+
+var bike = ['uinque','honda','yamaha','superstar'];
+
+bike.shift();
+bike.unshift('unique');
+
+bike.splice(0,3 ,'toyota', 'suzoki','corrola')
+var nobikeNocar = bike.slice(0,0)
+console.log(nobikeNocar)
