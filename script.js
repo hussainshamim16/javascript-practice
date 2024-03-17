@@ -203,3 +203,9 @@ var num5 = 2%2;
 // console.log('cc')
 // console.log(cars);
 
+// 16 Arrays Adding and removing elements
+
+// var zbara = ['hello','bello','sello','jello'];
+// zbara.pop();
+// zbara.push('yellow');
+// console.log(zbara);
