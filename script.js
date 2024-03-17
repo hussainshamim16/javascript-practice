@@ -212,11 +212,11 @@ var num5 = 2%2;
 
 // 17 Arrays: Removing, inserting, and extracting elements
 
-var bike = ['uinque','honda','yamaha','superstar'];
+// var bike = ['uinque','honda','yamaha','superstar'];
 
-bike.shift();
-bike.unshift('unique');
+// bike.shift();
+// bike.unshift('unique');
 
-bike.splice(0,3 ,'toyota', 'suzoki','corrola')
-var nobikeNocar = bike.slice(0,0)
-console.log(nobikeNocar)
+// bike.splice(0,3 ,'toyota', 'suzoki','corrola')
+// var nobikeNocar = bike.slice(0,0)
+// console.log(nobikeNocar)
