@@ -191,3 +191,15 @@ var num5 = 2%2;
 //    document.write("2 x " + i + ' = ' + i*2 +'<br />'+'<br />');
 // }
 
+// 15 Arrays
+
+// var cars = ['toyota' , 'honda' , 'suzuki'];
+// cars.shift('first remove');
+// cars.unshift('first add');
+// cars.pop('last remove');
+// cars.push('last add');
+// cars.splice(0,2);
+// var cc = cars.slice(0,1);
+// console.log('cc')
+// console.log(cars);
+
