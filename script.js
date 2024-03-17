@@ -220,3 +220,38 @@ var num5 = 2%2;
 // bike.splice(0,3 ,'toyota', 'suzoki','corrola')
 // var nobikeNocar = bike.slice(0,0)
 // console.log(nobikeNocar)
+
+
+// 18 for loops
+
+var platesomilk = 2;  
+var animal = 6;
+
+
+var dog = 'meet';
+var cat = 'meet';
+
+// if(dog === cat){
+//    console.log('drik milk')
+// }
+
+// if (platesomilk === animal){
+//    console.log('drinking');
+// }else{
+//    console.log('please wite iam founding plates')
+// }
+// if (platesomilk === 6){
+//    console.log('start drinking');
+// }
+// else if (platesomilk + 4){
+// console.log('ready to drink');
+// }
+
+for(var platesomilk = 0 ; platesomilk < 6 ; platesomilk++){
+   console.log('platesomilk,'+ platesomilk);
+   
+}
+
+if(platesomilk === 6){
+   console.log('khaly bhai khaly')
+}
