@@ -255,3 +255,19 @@ var num5 = 2%2;
 // if(platesomilk === 6){
 //    console.log('khaly bhai khaly')
 // }
+
+
+var car = 'gari mey petrol nhi hey';
+var bike = 'gari mey petrol nhi hey' ;
+
+var petrol = 'full';
+
+// for(var i= 0 ; i <= 4 ; i++);
+
+if(car === bike){
+   alert('tanki '+petrol);
+}
+if(petrol === 'full'){
+   console.log('gari is not define')
+}
+
