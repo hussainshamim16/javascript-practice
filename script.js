@@ -271,3 +271,18 @@ if(petrol === 'full'){
    console.log('gari is not define')
 }
 
+// 19 for loops: flags, Booleans, array length, and break
+
+// var userAgeChaker = prompt('your age');
+// var Userpoint = confirm('you are able to use this web')
+// var UserData = ["Hussain","0316xxxxx","webDev","Pakistan"]
+
+// for(i=0; i<2;i++){
+//    if(userAgeChaker > 17 && Userpoint === true){
+//       console.log("you are able");
+//       break
+//    }else{
+//       console.log("nhi");
+//    }
+// }
+
