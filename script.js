@@ -286,3 +286,17 @@ if(petrol === 'full'){
 //    }
 // }
 
+// 20 for loops nested
+
+// var name = prompt('your Name');
+// var instituteName = prompt('your institute Name');
+
+// var fullName = [name,instituteName]
+
+// for(i=0;i<2;i++){
+//    console.log(fullName[i]);
+//    for(j=0;j<1;j++){
+//       console.log("User Data Is Here");
+//    }
+   
+// }
