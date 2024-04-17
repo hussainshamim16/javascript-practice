@@ -300,3 +300,5 @@ if(petrol === 'full'){
 //    }
    
 // }
+
+//21 Changing case
