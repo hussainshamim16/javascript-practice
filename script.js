@@ -305,3 +305,15 @@ if(petrol === 'full'){
 
 var upper ="hussain";
 console.log(upper.toUpperCase());
+
+// 22 Strings: Measuring length and extracting parts
+
+var gig = "portfolio";
+console.log(gig.slice(0,5));
+
+// var country = prompt("lower to upper case");
+// var firstLate = country.slice(0,1).toUpperCase();
+// var lastLate = country.slice(1).toLowerCase();
+// var same = firstLate+lastLate;
+// var same = country.slice(0,1).toUpperCase() + country.toLowerCase();
+// console.log(same);
