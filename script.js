@@ -302,3 +302,6 @@ if(petrol === 'full'){
 // }
 
 //21 Changing case
+
+var upper ="hussain";
+console.log(upper.toUpperCase());
