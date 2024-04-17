@@ -317,3 +317,19 @@ console.log(gig.slice(0,5));
 // var same = firstLate+lastLate;
 // var same = country.slice(0,1).toUpperCase() + country.toLowerCase();
 // console.log(same);
+
+
+// 23 Strings: Finding segments
+// heighlight = " veritatis "
+var peragraph = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veritatis nostrum voluptate voluptas quas, repellendus, in excepturi sunt inventore officia ipsam et? Totam quae debitis nam eius voluptatum, nihil rerum."
+
+for(var i = 0 ; i<=peragraph.length; i++){
+   console.log(peragraph.slice(0,61)+"hussain"+ peragraph.slice(70,-1));
+}
+
+// if(peragraph.slice(i, i+9)==="veritatis"){
+//    console.log(i)
+// }
+// console.log(peragraph.slice(0,8))
+
+
