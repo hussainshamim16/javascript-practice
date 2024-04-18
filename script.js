@@ -333,3 +333,6 @@ for(var i = 0 ; i<=peragraph.length; i++){
 // console.log(peragraph.slice(0,8))
 
 
+// 24 finding segments
+var find = "SMIT";
+console.log(find.indexOf("I"));
