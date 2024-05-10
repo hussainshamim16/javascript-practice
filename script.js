@@ -321,11 +321,11 @@ console.log(gig.slice(0,5));
 
 // 23 Strings: Finding segments
 // heighlight = " veritatis "
-var peragraph = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veritatis nostrum voluptate voluptas quas, repellendus, in excepturi sunt inventore officia ipsam et? Totam quae debitis nam eius voluptatum, nihil rerum."
+// var peragraph = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veritatis nostrum voluptate voluptas quas, repellendus, in excepturi sunt inventore officia ipsam et? Totam quae debitis nam eius voluptatum, nihil rerum."
 
-for(var i = 0 ; i<=peragraph.length; i++){
-   console.log(peragraph.slice(0,61)+"hussain"+ peragraph.slice(70,-1));
-}
+// for(var i = 0 ; i<=peragraph.length; i++){
+//    console.log(peragraph.slice(0,61)+"hussain"+ peragraph.slice(70,-1));
+// }
 
 // if(peragraph.slice(i, i+9)==="veritatis"){
 //    console.log(i)
@@ -347,3 +347,22 @@ for(var i = 1; i<= firstName.length; i++){
       console.log(i)
    }
 }
+
+
+// 25 Replacing characters
+
+// var rep = "He code above finds a single character at index-0 (the beginning) of the string represented by the variable firstName and assigns it to the variable firstChar The following code finds the last character in the string."
+// // console.log(replace);
+// for(var h = 0; h <= rep.length; h++){
+//    console.log(rep.slice(h, h+6))
+//    if(rep.slice(h, h+6) === "single"){
+//       console.log(h)
+//    }
+// }
+// console.log(rep.slice(0,22) + "EQual" + rep.slice(28 ,-1));
+
+// New Method replace it
+
+// var pakage = "The first string inside the parentheses is the segment to be replaced. The second string "
+// var newText = pakage.replace("inside", "ander")
+// console.log(newText);
