@@ -336,3 +336,14 @@ for(var i = 0 ; i<=peragraph.length; i++){
 // 24 finding segments
 var find = "SMIT";
 console.log(find.indexOf("I"));
+
+var firstName = "hussain shamim"
+// console.log(firstName.slice(0)); old practice
+// console.log(firstName.charAt(8)); best practice
+// console.log(firstName.charAt(firstName.length -2));
+for(var i = 1; i<= firstName.length; i++){
+   
+   if(firstName[i] === "n"){
+      console.log(i)
+   }
+}
