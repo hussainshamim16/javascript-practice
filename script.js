@@ -388,3 +388,10 @@ console.log(dame , hame , fame);
 var tyble = Math.random();
 console.log(tyble)
 
+//  Converting strings to integers and decimals
+
+var str = "200";
+str = +"200"; // first practice number 
+str = parseInt(str); // second practice number 
+console.log(typeof str);
+
