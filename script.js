@@ -375,3 +375,12 @@ var scoreAvg = Math.round(scoreAvg);
 var number = 123.4567890;
 var roundNumber = Math.round(number)
 console.log(roundNumber);
+
+// conacting
+var samee = 98.9;
+var dame = Math.round(samee);
+var hame = Math.floor(samee);
+var fame = Math.ceil(samee);
+console.log(dame , hame , fame);
+
+
