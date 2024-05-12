@@ -371,3 +371,7 @@ for(var i = 1; i<= firstName.length; i++){
 
 var numberOfStars = Math.round(scoreAvg);
 var scoreAvg = Math.round(scoreAvg);
+
+var number = 123.4567890;
+var roundNumber = Math.round(number)
+console.log(roundNumber);
