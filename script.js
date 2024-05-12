@@ -400,3 +400,8 @@ var NUmbb = 12;
 NUmbb = String(NUmbb)
 console.log(typeof NUmbb);
 
+// Controlling the length of decimals
+var namber = 22.999998;
+namber = namber.toFixed(9)
+console.log(+namber);
+
