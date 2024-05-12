@@ -383,4 +383,8 @@ var hame = Math.floor(samee);
 var fame = Math.ceil(samee);
 console.log(dame , hame , fame);
 
+// Generating random numbers
+// var table = 2 ;
+var tyble = Math.random();
+console.log(tyble)
 
