@@ -366,3 +366,8 @@ for(var i = 1; i<= firstName.length; i++){
 // var pakage = "The first string inside the parentheses is the segment to be replaced. The second string "
 // var newText = pakage.replace("inside", "ander")
 // console.log(newText);
+
+// Rounding numbers
+
+var numberOfStars = Math.round(scoreAvg);
+var scoreAvg = Math.round(scoreAvg);
