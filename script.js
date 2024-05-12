@@ -395,3 +395,8 @@ str = +"200"; // first practice number
 str = parseInt(str); // second practice number 
 console.log(typeof str);
 
+// Converting strings to numbers, numbers to strings
+var NUmbb = 12;
+NUmbb = String(NUmbb)
+console.log(typeof NUmbb);
+
