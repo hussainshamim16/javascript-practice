@@ -90,3 +90,56 @@ var Name = "hussain";
 console.log(Name.slice(2,5));
 // first index second lenght
 
+// 23 finding segment
+var peragraph = "He was addressing a pre-budget conference organised by Business Recorder in collaboration with Federation of Pakistan Chamber of Commerce & Industry (FPCCI) along with other associations at a local hotel on Sunday. Federal Finance Minister Muhammad Aurangzeb graced the occasion as chief guest, which was attended by a top businessmen of the country.";
+// var peraI = peragraph.indexOf("addressing"); // lastIndexOf(SearchLastValue)
+console.log(peragraph.slice(0,7)+"Monday"+peragraph.slice(18,-1));
+
+// 24 character location
+
+var pegra = "“Our economic team has to come with broader, most strategic and structural reforms, both in design and execution, in the administration of tax system,” he stressed.";
+var pera = pegra.charAt(3);
+console.log(pera);
+
+// 25 replacing characters
+
+var poli = "He said the IMF tax proposals are extremely weak, not in structural nature and primarily represent a tinkering with small said changes here and there and minor variations in tax rates. Our economic team has to come with broader and strategic tax reforms, he stressed."
+var police = poli.replace( /said/g ,"Happy");
+console.log(police);
+
+// 26 rounding Numbers
+
+// var number = 2.34;
+var tat  = Math.round(2.4);
+console.log(tat);
+
+// ceil 
+
+var faf =  Math.ceil(2.1);
+console.log(faf);
+
+// floor 
+
+var hah =  Math.floor(2.9);
+console.log(hah);
+
+// 27 random Numbers
+
+var tay = Math.round(Math.random()*10);
+console.log(tay);
+
+// 28 string to Numbers
+
+var mam = "22";
+console.log(typeof +mam);
+
+// 29 Numbers to string
+
+var cac = 24;
+console.log(typeof cac.toString());
+
+// 30 Numbers to string
+
+var oi = 24.90;
+console.log(oi.toFixed(1));
+
