@@ -437,4 +437,8 @@ console.log(+namber);
     console.log(dob.slice(0,15),"DOB hasnain")
    //  ,"hussnain"
 
-    
+    /// 34 Changing elements of a date and time
+
+    var changeAllMethodsTime = new Date();
+    changeAllMethodsTime.getFullYear(2001)
+    console.log(changeAllMethodsTime)
