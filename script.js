@@ -405,3 +405,36 @@ var namber = 22.999998;
 namber = namber.toFixed(9)
 console.log(+namber);
 
+// 31 Getting the current date and time
+// get date
+    var date = Date.now();
+    console.log(date,"date");
+    // get day
+    var gat = new Date();
+    var dayNames = ["sun","mon","teu","wed","thu","fri","Sat"]
+    console.log(dayNames[gat.getDay()],"day");
+
+   //  32 Extracting parts of the date and time 
+
+    // get month
+    console.log(gat.getMonth());
+    // get full year
+    console.log(gat.getFullYear());
+    // get Hours
+    console.log(gat.getHours());
+    // get minutes
+    console.log(gat.getMinutes());
+    // get second
+    console.log(gat.getSeconds());
+    // get mili second
+    console.log(gat.getMilliseconds());
+    // get time
+    console.log(gat.getTime());
+
+    // 33 Specifying a date and time
+
+    var dob =  new Date("10 jul,2009").toString()
+    console.log(dob.slice(0,15),"DOB hasnain")
+   //  ,"hussnain"
+
+    
