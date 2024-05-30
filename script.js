@@ -442,3 +442,13 @@ console.log(+namber);
     var changeAllMethodsTime = new Date();
     changeAllMethodsTime.getFullYear(2001)
     console.log(changeAllMethodsTime)
+
+   //  35 functions
+
+  function abcd(){
+console.log("block of estatment")
+   }
+
+   abcd()
+
+   
