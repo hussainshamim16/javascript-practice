@@ -510,19 +510,41 @@ function vari(){
 console.log(Local)
 vari()
 
-// 39 swocth estatements
+// 39 - 40 switch estatements
+var userInput = +prompt("enter your school class")
+switch (userInput) {
+   case 1:
+      console.log('you are in one class')
+      break;
+   case 2:
+      console.log('you are in two class')
+      break;
+   case 3:
+      console.log('you are in three class')
+      break;
+   case 4:
+      console.log('you are in four class')
+      break;
+   case 5:
+      console.log('you are in five class')
+      break;
+   case 6:
+      console.log('you are in six class')
+      break;
+   case 7:
+      console.log('you are in seven class')
+      break;
+   case 8:
+      console.log('you are in eight class')
+      break;
+   case 9:
+      console.log('you are in nine class')
+      break;
+   case 10:
+      console.log('you are in ten class')
+      break;
 
-var input = document.createElement("input");
-console.log(input.type = "radio")
-
-
-// var select = alert()
-// select.
-// switch (key) {
-//    case value:
-      
-//       break;
-
-//    default:
-//       break;
-// }
+   default:
+      console.log("your School class is not found!")
+      break;
+}
