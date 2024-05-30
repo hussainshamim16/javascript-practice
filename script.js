@@ -451,4 +451,32 @@ console.log("block of estatment")
 
    abcd()
 
+   //36 fnc Passing them data
+//perameter or argument
+
+var speaking = "english & Urdu"
+function speaker(){
+   // alert(speaking.nodeVluea = "hard");
+   console.log(speaking)
+}
+speaker()
+
+var inputI =  prompt("Chose Your Function","party,shaadi,disco");
+function fancti() {
+   switch (inputI) {
+      case "party":
+         console.log("WElcome to party function")
+         break;
+         case "shaadi":
+            console.log("WElcome to shaadi function")
+            break;
+            case "disco":
+               console.log("WElcome to disco function")
+               break;
    
+      default:
+         console.log("no function")
+         break;
+   }
+}
+fancti()
