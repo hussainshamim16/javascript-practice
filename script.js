@@ -548,3 +548,12 @@ switch (userInput) {
       console.log("your School class is not found!")
       break;
 }
+
+// 41 while loop
+
+var i = 0;
+while (i <= 10) {
+   console.log("while Run" + i)
+   i++;
+}
+
