@@ -557,3 +557,11 @@ while (i <= 10) {
    i++;
 }
 
+// 42 do while loop
+
+var i = 0;
+do{
+   console.log("do Run" + i)
+   i++;
+}
+while (i <= 10);
