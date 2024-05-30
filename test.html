@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
+
 </head>
 <body>
-    <script src="./test.js"></script>
+    <form action="#">
+    <input type="radio" name="red" required>
+    <label for="red"  id="vale" >red</label>
+    <a onclick="red()">done</a>
+    </form>
+    <script>
+        function red(){
+            var inpu =  document.getElementById("vale");
+            console.log(inpu.innerHTML)
+        }
+    </script>
 </body>
 </html>

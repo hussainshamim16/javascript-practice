@@ -510,3 +510,19 @@ function vari(){
 console.log(Local)
 vari()
 
+// 39 swocth estatements
+
+var input = document.createElement("input");
+console.log(input.type = "radio")
+
+
+// var select = alert()
+// select.
+// switch (key) {
+//    case value:
+      
+//       break;
+
+//    default:
+//       break;
+// }
