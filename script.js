@@ -565,3 +565,19 @@ do{
    i++;
 }
 while (i <= 10);
+
+// 43 Placing scripts
+
+// three types of placing js internal external inline
+
+// 44 commenting
+
+// one line
+
+/*multiple
+line*/
+
+
+// 45 Events: link
+/*<a href = "JavaScriopt:void(0)">click</a>
+<a onclick = "submit(this)">submit</a>*/
