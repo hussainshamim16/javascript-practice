@@ -480,3 +480,22 @@ function fancti() {
    }
 }
 fancti()
+
+// 37 Functions: Passing data back from them
+
+var totalMarks = 100;
+var studentMarks = 1;
+function result(){
+   if(studentMarks == totalMarks){
+      console.log("A plus 100%")
+   }else if(studentMarks >= 65) {
+      console.log("pass")
+   }
+   else if(studentMarks < 30) {
+      console.log("fail")
+   } 
+   else{
+      console.log("fail 0%")
+   }
+}
+result();
