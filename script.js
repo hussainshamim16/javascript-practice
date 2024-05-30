@@ -499,3 +499,14 @@ function result(){
    }
 }
 result();
+
+// 38 Functions Local vs. global variables
+
+var Local = "Local";
+function vari(){
+   var global = "global";
+   console.log(global)
+}
+console.log(Local)
+vari()
+
