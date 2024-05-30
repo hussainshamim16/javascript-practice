@@ -581,3 +581,14 @@ line*/
 // 45 Events: link
 /*<a href = "JavaScriopt:void(0)">click</a>
 <a onclick = "submit(this)">submit</a>*/
+
+// 50 Setting field values
+var ggae = prompt("your City postel Code");
+switch(ggae){
+   case "2990":
+      console.log ("karachi");
+      break;
+      default:
+         console.log("not define")
+         break;
+}
