@@ -164,3 +164,16 @@ function tari(elem){
     console.log(meth)
     
 }
+
+var perra ="The Paragraph Typing Test is an online assessment tool that evaluates an individual's typing speed and accuracy by having them type out a provided paragraph."
+console.log(perra)
+
+for(var i = 0; i<= perra.length; i++){
+console.log(perra.slice(i,i+6))
+if(perra.slice(i,i+6) === "Typing"){
+    console.log(perra.indexOf("Typing"))
+    console.log(perra.slice(0,14)+"retype"+perra.slice(14,-1))
+    
+}
+}
+// console.log(perra)
