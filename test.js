@@ -143,3 +143,22 @@ console.log(typeof cac.toString());
 var oi = 24.90;
 console.log(oi.toFixed(1));
 
+
+var dateB = document.getElementById("dateType");
+
+function tari(elem){
+    var div = document.getElementById("uiShow");
+    elem.disabled = "true";
+
+    var setDate = dateB.value;
+    var datee = new Date(setDate);
+
+    var current = new Date();
+
+    var meth = current.getFullYear() - datee.getFullYear();
+    
+    
+    div.innerHTML = "you are " + meth + " years Old"
+    console.log(meth)
+    
+}
