@@ -147,6 +147,8 @@ console.log(oi.toFixed(1));
 var dateB = document.getElementById("dateType");
 
 function tari(elem){
+   
+
     var div = document.getElementById("uiShow");
     elem.disabled = "true";
 
