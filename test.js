@@ -190,6 +190,7 @@ console.log("do wh   lie Loop");
 var i = 0;
 do{
     console.log(i)
+    i++
 }
-while(i<10);
+while(i<=10);
     
