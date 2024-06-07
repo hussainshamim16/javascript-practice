@@ -193,4 +193,9 @@ do{
     i++
 }
 while(i<=10);
+
+
+function EmailadressCheck(tr){
+    console.log(tr.innerHTML)
+ }
     
