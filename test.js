@@ -185,6 +185,11 @@ while(i<5){
     console.log(i)
 
     i++
+    }
+console.log("do wh   lie Loop");
+var i = 0;
+do{
+    console.log(i)
 }
-// for (var i= 0; i<=5; ){
-// }
+while(i<10);
+    
