@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
 
 </head>
+
 <body>
     <!-- <form action="#">
     <input type="radio" name="red" required>
@@ -21,22 +23,30 @@
 
     <!-- your birthday -->
     <form action="#">
-        <input type="date" name="same" id="dateType" required style="border: 1px solid red;font-family: sans-serif; border-radius: 10px; background-color: rgb(255, 186, 122); padding: 7px 70px;margin-bottom:10px; font-weight: 600;"> 
-        <button type="submit" onclick="tari(this)" style="padding: 10px 20px; background-color: rgb(255, 182, 182); border: none; border-radius: 20px;">submit</button>
+        <input type="date" name="same" id="dateType" required
+            style="border: 1px solid red;font-family: sans-serif; border-radius: 10px; background-color: rgb(255, 186, 122); padding: 7px 70px;margin-bottom:10px; font-weight: 600;">
+        <button type="submit" onclick="tari(this)"
+            style="padding: 10px 20px; background-color: rgb(255, 182, 182); border: none; border-radius: 20px;">submit</button>
     </form>
-    <div id="uiShow" style="border: 1px solid red;font-family: sans-serif; width: auto; display: inline-block; background-color: lightsalmon; padding: 10px 20px;font-weight: 600;"></div> <br><br>
-    <a href="" style=" text-decoration: none; color: black; font-weight: 600; font-family: sans-serif; padding: 10px 20px; background-color: rgb(255, 182, 182); border: none; border-radius: 20px; cursor: pointer;">refresh</a>
-
-    <!-- <form action="#" onsubmit="EmailadressCheck('email')">
-       email:
-       <input type="email" name="" id="email"> 
-       <button type="submit">submit</button>
-    </form> -->
-
-    <form action="#" id="show()">
-
+    <div id="uiShow"
+        style="border: 1px solid red;font-family: sans-serif; width: auto; display: inline-block; background-color: lightsalmon; padding: 10px 20px;font-weight: 600;">
+    </div> <br><br>
+    <a href=""
+        style=" text-decoration: none; color: black; font-weight: 600; font-family: sans-serif; padding: 10px 20px; background-color: rgb(255, 182, 182); border: none; border-radius: 20px; cursor: pointer;"
+        onfocus="this.style.backgroundColor = 'red'">refresh</a>
+    <br> <br> <br> <br>
+    <p>1111 = karachi ; 2222 = lahore; 3333 = punjab; 4444 = kpk</p>
+    <form action="#" method="dialog">
+        zip: <br>
+        <input type="text" name="zipcode" id="zip" required> <br>
+        city: <br>
+        <input type="text" placeholder="city" id="city"> <br>
+        <button type="submit" onclick="citySubmit()">click</button>
     </form>
+
+
 </body>
 
 <script src="./test.js"></script>
+
 </html>

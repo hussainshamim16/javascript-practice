@@ -87,13 +87,13 @@
 
 var Name = "hussain";
 // console.log(Name.length);
-console.log(Name.slice(2,5));
+console.log(Name.slice(2, 5));
 // first index second lenght
 
 // 23 finding segment
 var peragraph = "He was addressing a pre-budget conference organised by Business Recorder in collaboration with Federation of Pakistan Chamber of Commerce & Industry (FPCCI) along with other associations at a local hotel on Sunday. Federal Finance Minister Muhammad Aurangzeb graced the occasion as chief guest, which was attended by a top businessmen of the country.";
 // var peraI = peragraph.indexOf("addressing"); // lastIndexOf(SearchLastValue)
-console.log(peragraph.slice(0,7)+"Monday"+peragraph.slice(18,-1));
+console.log(peragraph.slice(0, 7) + "Monday" + peragraph.slice(18, -1));
 
 // 24 character location
 
@@ -104,28 +104,28 @@ console.log(pera);
 // 25 replacing characters
 
 var poli = "He said the IMF tax proposals are extremely weak, not in structural nature and primarily represent a tinkering with small said changes here and there and minor variations in tax rates. Our economic team has to come with broader and strategic tax reforms, he stressed."
-var police = poli.replace( /said/g ,"Happy");
+var police = poli.replace(/said/g, "Happy");
 console.log(police);
 
 // 26 rounding Numbers
 
 // var number = 2.34;
-var tat  = Math.round(2.4);
+var tat = Math.round(2.4);
 console.log(tat);
 
 // ceil 
 
-var faf =  Math.ceil(2.1);
+var faf = Math.ceil(2.1);
 console.log(faf);
 
 // floor 
 
-var hah =  Math.floor(2.9);
+var hah = Math.floor(2.9);
 console.log(hah);
 
 // 27 random Numbers
 
-var tay = Math.round(Math.random()*10);
+var tay = Math.round(Math.random() * 10);
 console.log(tay);
 
 // 28 string to Numbers
@@ -146,8 +146,8 @@ console.log(oi.toFixed(1));
 
 var dateB = document.getElementById("dateType");
 
-function tari(elem){
-   
+function tari(elem) {
+
 
     var div = document.getElementById("uiShow");
     elem.disabled = "true";
@@ -158,44 +158,63 @@ function tari(elem){
     var current = new Date();
 
     var meth = current.getFullYear() - datee.getFullYear();
-    
-    
+
+
     div.innerHTML = "you are " + meth + " years Old"
     console.log(meth)
-    
+
 }
 
-var perra ="The Paragraph Typing Test is an online assessment tool that evaluates an individual's typing speed and accuracy by having them type out a provided paragraph."
+var perra = "The Paragraph Typing Test is an online assessment tool that evaluates an individual's typing speed and accuracy by having them type out a provided paragraph."
 console.log(perra)
 
-for(var i = 0; i<= perra.length; i++){
-console.log(perra.slice(i,i+6))
-if(perra.slice(i,i+6) === "Typing"){
-    console.log(perra.indexOf("Typing"))
-    console.log(perra.slice(0,14)+"retype"+perra.slice(14,-1))
-    
-}
+for (var i = 0; i <= perra.length; i++) {
+    console.log(perra.slice(i, i + 6))
+    if (perra.slice(i, i + 6) === "Typing") {
+        console.log(perra.indexOf("Typing"))
+        console.log(perra.slice(0, 14) + "retype" + perra.slice(14, -1))
+
+    }
 }
 // console.log(perra)
 
 /// while loop 
 console.log("whlie Loop");
 var i = 0;
-while(i<5){
+while (i < 5) {
     console.log(i)
 
     i++
-    }
+}
 console.log("do wh   lie Loop");
 var i = 0;
-do{
+do {
     console.log(i)
     i++
 }
-while(i<=10);
+while (i <= 10);
 
+function citySubmit() {
+    var cityName;
+    var zipEnter = document.getElementById("zip").value;
+    switch (zipEnter) {
+        case "1111": cityName = "karachi";
 
-function EmailadressCheck(tr){
-    console.log(tr.innerHTML)
- }
-    
+            break;
+        case "2222": cityName = "lahore";
+
+            break;
+        case "3333": cityName = "punjab";
+
+            break;
+        case "4444": cityName = "kpk";
+
+            break;
+
+        default:
+            cityName = "no match"
+            break;
+    }
+    document.getElementById("city").value = cityName;
+    zipEnter.value = "";
+}
