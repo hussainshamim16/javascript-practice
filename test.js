@@ -218,3 +218,12 @@ function citySubmit() {
     document.getElementById("city").value = cityName;
     zipEnter.value = "";
 }
+
+const setPakistan = ()=>{
+    alert("setPakistan")
+    console.log(this)
+}
+function zindabad(parent){
+    alert("zindabad")
+    console.log(parent)
+}
