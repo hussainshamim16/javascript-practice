@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>58-67</title>
+</head>
+
+<body>
+    <div>
+        <h1> DOM </h1>
+        <form id="form-content" class="content" onsubmit="sub(event)">
+            <label for="first-name">First Name</label> <br>
+            <input type="text" id="first-name" /> <br>
+            <label for="last-name">Last Name</label> <br>
+            <input type="text" id="last-name" /> <br>
+            <label for="email">Email</label> <br>
+            <input type="text" id="email" /> <br>
+            <label for="images">Image</label> <br>
+            <!-- <input type="file" accept="image/*" id="images"> <br> <br> -->
+            <button type="submit">submit</button>
+        </form>
+        <div id="main-content" class="content">
+            <img src="./images/hsaa.png" alt="profileimg" id="targetImage">
+            <p class="render"> First Name : <span id="First">Alex</span></p>
+            <p class="render">Last Name: <span id="Last">Sameer</span></p>
+            <p class="render"> Email : <span id="wail">Alex@gmail.com</span></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
