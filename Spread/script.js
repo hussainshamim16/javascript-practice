@@ -9,7 +9,7 @@ let arr1 = [...array];
 console.log(arr1);
 
 
-let obj = {name:'hussain',Fname:'shmim'};
+let obj = {name:'hussain',Fathername:'shmim'};
 console.log(obj);
 let obj1 = {...obj};
 console.log(obj1)
