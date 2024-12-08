@@ -1,8 +1,8 @@
 
 
 // Destructuring in array 
-const studentData = ["hussain","hassnain","arzoo","ronaq","muntha","hunain"];
-let [first,second,thired,fourth,five,six] = studentData;
+const studentData = ["Aleem uddin","Shamim Uddin","Ambri Bano","hussain","hassnain","arzoo","ronaq","muntha","hunain"];
+let [first,second,thired,fourth,five,six,seven,eight,nine] = studentData;
 console.log(second);
 
 
@@ -12,8 +12,10 @@ const userEmails = {
     userTwo : "hassnainshamim@gmail.com",
     userthree : "alizbano@gmail.com",
     userfour : "aqeeltraeen@gmail.com",
-    userfour : "madiaafzal@gmail.com"
+    userFive : "madiaafzal@gmail.com",
+    userSix : "RehmatAli@gmail.com",
+    userEight: "Chacho457@gmail.com",
 }
 // console.log(userEmails.userOne)
-let {userOne,userTwo,userthree,userfour,} = userEmails;
+let {userOne,userTwo,userthree,userfour,userFive,userSix,userEight} = userEmails;
 console.log(userTwo)
