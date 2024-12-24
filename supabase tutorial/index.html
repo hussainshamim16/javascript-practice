@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="admin-form" action="JavaScript:void(0)" onsubmit="AddUser()">
+        <h1>Login User</h1>
+        <input type="text" placeholder="Name" id="Name"> <br>
+        <input type="text" placeholder="Last Name" id="LastName"> <br>
+        <input type="email" placeholder="Email" id="email"> <br>
+        <input type="password" placeholder="Password" id="password"> <br>
+        <button type="submit">Add User</button>
+    </form>
+
+    <form action="JavaScript:void(0)" onsubmit="AddUser()">
+        <h1>Add Blog</h1>
+        <input type="text" placeholder="Title" id="Title"> <br>
+        <input type="text" placeholder="discription" id="discription"> <br>
+        <button type="submit">Add Blog</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@14.0.1"></script>
+    <script src="./admin.js"></script>
+</body>
+</html>
