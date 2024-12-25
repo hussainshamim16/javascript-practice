@@ -38,32 +38,25 @@ const AddUser = async (event) => {
             userObject
         )
         alert("Blog application")
+        console.log(response)
     } catch (error) {
         console.log("Error Message found Maessage ", error.message)
     }
 
 }
 
-// add Blog 
-const Title = document.getElementById('Title')
-const discription = document.getElementById('discription')
-const blogFnc = {
-Title : Title.value,
-discription: discription.value,
+
+// login user
+const Loginemail = document.getElementById("Loginemail")
+const Loginpassword = document.getElementById("Loginpassword")
+const login = ()=>{
+    const loginUser  = {
+        Loginemail: Loginemail.value,
+        Loginpassword: Loginpassword.value
+    }
+    console.log("Login user ",loginUser)
 }
-const addBlog = async ()=>{
-   try {
-    const response = await database.createDatabases(
-        "676ac68000297a211812",
-        "676ac69d0026fcf60e67",
-        "unique()",
-        blogFnc
-    )
-    alert("adding Blog")
-   } catch (error) {
-    console.log("Error Blog Message ", error.message)
-   }
-}
+
 
 
 
