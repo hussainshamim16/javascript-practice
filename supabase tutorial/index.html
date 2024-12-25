@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +9,19 @@
         body {
             font-family: Arial, sans-serif;
         }
+
         form {
             max-width: 300px;
             margin: auto;
             text-align: center;
         }
+
         input {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
         }
+
         button {
             padding: 10px;
             background-color: #007bff;
@@ -25,8 +29,28 @@
             border: none;
             cursor: pointer;
         }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .blog-card {
+            border: 1px solid #ccc;
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 8px;
+        }
+        .blog-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 8px;
+            border-radius: 4px;
+        }
     </style>
 </head>
+
 <body>
     <form id="admin-form" action="JavaScript:void(0)" onsubmit="AddUser()">
         <h1>Sign up</h1>
@@ -42,14 +66,22 @@
         <input type="password" placeholder="Password" id="Loginpassword"> <br>
         <button type="submit">Login</button>
     </form>
-
-    <!-- <form action="JavaScript:void(0)" onsubmit="AddUser()">
-        <h1>Add Blog</h1>
-        <input type="text" placeholder="Title" id="Title"> <br>
-        <input type="text" placeholder="discription" id="discription"> <br>
+    <form id="admin-form-blog" action="JavaScript:void(0)" onsubmit="addBlog()">
+        <h1>Blog Add</h1>
+        <input type="text" id="title" placeholder="Blog Title" required><br>
+        <textarea id="description" placeholder="Blog Description" required></textarea><br>
+        <input type="text" id="Category" placeholder="Property Category" required><br>
+        <input type="file" id="image" accept="image/*" required><br>
         <button type="submit">Add Blog</button>
-    </form> -->
+    </form>
+
+    <button type="submit" onclick="logoutUser()">Logout</button>
+
+    <h1>All Blogs</h1>
+    <div id="blog-container"></div>
+
     <script src="https://cdn.jsdelivr.net/npm/appwrite@14.0.1"></script>
     <script src="./admin.js"></script>
 </body>
+
 </html>
