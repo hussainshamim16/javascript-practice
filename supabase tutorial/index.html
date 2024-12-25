@@ -29,20 +29,26 @@
 </head>
 <body>
     <form id="admin-form" action="JavaScript:void(0)" onsubmit="AddUser()">
-        <h1>Login User</h1>
+        <h1>Sign up</h1>
         <input type="text" placeholder="Name" id="Name"> <br>
         <input type="text" placeholder="Last Name" id="LastName"> <br>
         <input type="email" placeholder="Email" id="email"> <br>
         <input type="password" placeholder="Password" id="password"> <br>
-        <button type="submit">Add User</button>
+        <button type="submit">Signup</button>
+    </form>
+    <form id="admin-form-login" action="JavaScript:void(0)" onsubmit="login()">
+        <h1>Login</h1>
+        <input type="email" placeholder="Email" id="Loginemail"> <br>
+        <input type="password" placeholder="Password" id="Loginpassword"> <br>
+        <button type="submit">Login</button>
     </form>
 
-    <form action="JavaScript:void(0)" onsubmit="AddUser()">
+    <!-- <form action="JavaScript:void(0)" onsubmit="AddUser()">
         <h1>Add Blog</h1>
         <input type="text" placeholder="Title" id="Title"> <br>
         <input type="text" placeholder="discription" id="discription"> <br>
         <button type="submit">Add Blog</button>
-    </form>
+    </form> -->
     <script src="https://cdn.jsdelivr.net/npm/appwrite@14.0.1"></script>
     <script src="./admin.js"></script>
 </body>
