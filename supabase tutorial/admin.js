@@ -160,3 +160,72 @@ const fetchBlogs = async () => {
 
 // Call fetchBlogs to render blogs on page load
 document.addEventListener("DOMContentLoaded", fetchBlogs);
+
+
+
+
+// todos
+const express = require('express')
+const app = express()
+const routes = require('express').Router()
+const bodyparser = require('body-parser')
+
+
+routes.use(bodyparser.json)
+
+//  todos list 
+const todos = [
+    {
+        id: 1,
+        title: "Javascript Book"
+    },
+    {
+        id: 2,
+        title: "Html Book"
+    },
+    {
+        id: 3,
+        title: "Css Book"
+    },
+    {
+        id: 4,
+        title: "Php Book"
+    },
+]
+//  todos list 
+
+
+// all todos
+routes.get('/', (req, res) => {
+    res.json(todos)
+})
+
+// one todo 
+routes.get('/todo/:id', (req, res) => {
+    res.send("one todo Show", res.params.id)
+})
+
+// add todo 
+routes.post('/todo', (req, res) => {
+    res.json({
+        Message: "hello Hussain",
+        all : todos
+    })
+    console.log("helo hussain kaam nhi ho rha kiya ",req.body);
+})
+
+// edit todo 
+routes.put('/todo/:id', (req, res) => {
+    res.send("add todo")
+})
+
+// delete todo 
+routes.delete('/todo/:id', (req, res) => {
+    res.send("add todo")
+})
+
+
+
+
+module.exports = routes
+
