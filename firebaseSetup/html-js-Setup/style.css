@@ -1,0 +1,25 @@
+div,form{
+    background: rgb(1, 0, 36);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+input,textarea{
+    margin: 10px 0;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(110, 107, 255);
+    color: white;
+    cursor: pointer;
+}   

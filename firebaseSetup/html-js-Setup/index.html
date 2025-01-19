@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firebase Auth</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<!-- signup -->
+<div>
+    <h1>Signup</h1>
+    <input type="text" id="name" placeholder="Name" required>  <br>
+    <input type="email" id="email" placeholder="Email" required> <br>
+    <input type="password" id="password" placeholder="Password" required> <br>
+    <input type="file" name="image" id="userImage"> <br>
+    <button type="submit" id="signup">Signup</button>
+</div>
+<!-- login -->
+<div>
+    <h1>Login</h1>
+    <input type="email" id="Loginemail" placeholder="Email" required> <br>
+    <input type="password" id="Loginpassword" placeholder="Password" required> <br>
+    <button type="submit" id="loginbtn">login</button>
+</div>
+<!-- post -->
+<div>
+    <h1>post upload</h1>
+    <input type="text" id="title" placeholder="title" required>  <br>
+    <textarea name="description" id="description" cols="30" rows="10" placeholder="description"></textarea> <br>
+    <input type="text" id="category" placeholder="category" required>  <br>
+    <input type="file" name="image" id="postImage"> <br>
+    <button type="submit" id="postupload">Post</button>
+</div>
+
+ 
+    <script src="./admin.js" type="module"></script>
+</body>
+</html>
