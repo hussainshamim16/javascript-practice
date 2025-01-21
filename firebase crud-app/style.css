@@ -9,6 +9,18 @@ form{
     width: 50%;
     margin-bottom: 20px;
 }
+.card{
+    width: 30%;
+    background-color: rgb(150, 160, 255);
+    box-shadow: 15px 11px 30px 0px #ffffff55;
+}
+.pera{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
 
 @media only screen and (max-width: 500px) {
  
@@ -16,6 +28,10 @@ form{
         background-color: rgba(0, 0, 0, 0.346);
         padding: 30px;
         width: 90%;
+    }
+    .card{
+        width: 100%;
+        box-shadow: 15px 11px 10px 0px #84848455;
     }
 }
 

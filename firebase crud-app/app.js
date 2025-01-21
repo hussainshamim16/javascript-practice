@@ -126,17 +126,16 @@ const renderData = async () => {
     const getData = await getDocs(collection(db, "post"))
     getData.forEach((doc) => {
         // console.log(doc.data())
-        const { education, email, lastName, name, religin } = doc.data()
+        const { title, description, postImage, category } = doc.data()
         perantData.innerHTML += `
-     <div id="child">
-            <p>Name : ${name}</p>
-            <p>LastName : ${lastName}</p>
-            <p>Email : ${email}</p>
-            <p>Education : ${education}</p>
-            <p>Religin : ${religin}</p>
-             <button type="submit"  onclick="edit('${doc.id}')">edit</button> 
-             <button type="submit"  onclick="deleete('${doc.id}')">delete</button> 
-        </div>
+     <div class="card" ">
+      <img src="${postImage}" class=" card-img-top" alt="...">
+      <div class="card-body">
+        <h4>${title}</h4>
+        <p>category : ${category}</p>
+        <p class="card-text">${description}</p>
+      </div>
+    </div>
         `
     });
 
