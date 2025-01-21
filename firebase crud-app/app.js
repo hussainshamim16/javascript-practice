@@ -40,6 +40,7 @@ signup.addEventListener("click", async () => {
         }
         const userCreate = await createUserWithEmailAndPassword(auth, createuser.email, createuser.password)
         alert("User is signup")
+        window.location.reload()
         console.log(createuser)
     } catch (error) {
         console.error(error)
@@ -54,12 +55,14 @@ loginbtn.addEventListener("click", async () => {
     }
     const userCreate = await signInWithEmailAndPassword(auth, LogiUser.email, LogiUser.password)
     alert("User is login")
+    window.location.reload()
     console.log(LogiUser)
 });
 
 logout.addEventListener("click", async () => {
     const userlogout = await signOut(auth)
     alert("signout succsseful")
+    window.location.reload()
 })
 
 postupload.addEventListener("click", async () => {
@@ -110,6 +113,7 @@ postupload.addEventListener("click", async () => {
                 console.log("proosees")
                 await addDoc(collection(db, "post"), creratePOST);
                 alert("Post is uploaded successfully!");
+                window.location.reload()
             },
         );
 
@@ -134,6 +138,10 @@ const renderData = async () => {
         <h4>${title}</h4>
         <p>category : ${category}</p>
         <p class="card-text">${description}</p>
+        <div class="d-grid gap-2">
+          <button class="btn btn-warning" type="button" onclick="edit('${doc.id}')">Edit</button>
+          <button class="btn btn-danger" type="button" onclick="deleete('${doc.id}')">Delete</button>
+        </div>
       </div>
     </div>
         `
@@ -141,16 +149,23 @@ const renderData = async () => {
 
 }
 const edit = async (ele) => {
-    console.log(ele)
-    const EditName = prompt("Enter Your Updated Name")
-    const collection = doc(db, "appuser", ele)
-    const update = await updateDoc(collection, { name: EditName })
-    alert("Data is Updated")
+    try {
+        console.log(ele)
+        const title = prompt("Enter Your Updated title")
+        // const description = prompt("Enter Your Updated description")
+        const collection = doc(db, "post", ele)
+        const update = await updateDoc(collection, { title: title })
+        alert("Data is Updated")
+        window.location.reload()
+    } catch (error) {
+        console.log(error.message)
+    }
 }
 const deleete = (ele) => {
-    const collection = doc(db, "appuser", ele)
+    const collection = doc(db, "post", ele)
     const deleteData = deleteDoc(collection)
     alert("Data is Deleted")
+    window.location.reload()
 }
 
 // renderData()   this function is used to get data from firebase and show on the screen

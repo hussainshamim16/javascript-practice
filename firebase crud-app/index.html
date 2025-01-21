@@ -69,7 +69,18 @@
   <!-- read Data -->
   <h1 class="text-center my-3">Data</h1>
   <div id="perantData" class="container pera mb-5">
-
+    <div class="card" ">
+      <img src="${postImage}" class=" card-img-top" alt="...">
+      <div class="card-body">
+        <h4>${title}</h4>
+        <p>category : ${category}</p>
+        <p class="card-text">${description}</p>
+        <div class="d-grid gap-2">
+          <button class="btn btn-warning" type="button" onclick="edit()">Edit</button>
+          <button class="btn btn-danger" type="button" onclick="deleete()">Delete</button>
+        </div>
+      </div>
+    </div>
   </div>
 
 
