@@ -41,6 +41,11 @@ cars.map((value, indexedDB, all) => {
 // after array rendering
 // console.log(cars.push("ready"),cars)
 
+
+
+// yhan tak parhaya hey eskey baad ka parhana hey 
+
+
 // 2 filters Ye array se kuch cheezein chhant kar naya array banata hai.
 let ages = [12, 10, 18, 20, 50, 25];
 let adults = ages.filter(value => value >= 18)
