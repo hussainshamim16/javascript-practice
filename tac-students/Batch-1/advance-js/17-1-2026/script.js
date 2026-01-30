@@ -29,7 +29,7 @@ let bhaiLaptopMillJayga = new Promise((resolve, reject) => {
     if (amiKiakehrheihey) {
         console.log("Han Han jaan Bhie Hazir hey Kab cahiye Batao");
     } else {
-        console.log("Laptop Nhi dey Sakti Ami mana kar rhei hey")
+        console.log("Laptop Nhi dey Sakta Ami mana kar rhei hey")
     }
 })
 bhaiLaptopMillJayga.then((result) => [
@@ -98,7 +98,7 @@ console.log("API start...");
 fetch('https://dummyjson.com/post')
     .then(response => response.json())
     .then(data => {
-        allData = data.posts;
+        allData = data;
         // console.log("all data", allData)
         allData.map((value, index) => {
             console.log(value)
